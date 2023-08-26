@@ -1,0 +1,119 @@
+.container{
+    background-image: url(../img/crowd-1056764_640.jpg);
+  size: 100%;
+  background-repeat:inherit;
+  background-attachment: fixed;
+  padding: 60px;
+  border-radius: 10px;
+  box-shadow: 30px 3px 30px rgba(99, 240, 5, 0.1);
+}
+
+
+  
+.row {
+  color: #f1f1f4; 
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: larger;
+  font-style: italic;
+  font-variant: small-caps;
+  font-feature-settings: "clig";
+
+}
+
+  .title {
+    color: #0b0b0b; /* Change to your desired font color */
+    background-image: url(../img/vintage-4746779_640.webp);
+    text-align: center;
+    font-size: 50px;
+    font-style: italic;
+    margin-bottom: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  .player-container {
+    background-image: url(../img/easter-bunnies-6082603_640.jpg);
+    text-align: center;
+    padding: 20px;
+    border-radius: 90px;
+    margin-top: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .song-details {
+    font-size: 28px;
+    margin-top: 10px;
+  }
+  
+  .artist-name {
+    font-weight: bold;
+    color: #fff9f9; /* Text color for artist name */
+  }
+  
+  .track-name {
+    color: #00ff00; /* Text color for track name */
+  }
+
+  .songname {
+    color: #f2f6f2; /* Change to your desired label text color */
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+  }
+
+ /* Add this to your .css file */
+.btn.btn-warning {
+  border-radius: 50%; /* Makes the button circular */
+  width: 50px; /* Adjust the width and height to your preference */
+  height: 50px;
+  background-color: #f39c12; /* Button background color */
+  color: white; /* Button text color */
+  font-size: 10px; /* Button text font size */
+  border:#f2f6f2; /* Remove border */
+  cursor: pointer; /* Show pointer cursor on hover */
+}
+
+.btn.btn-warning:hover {
+  background-color: #e67e22; /* Change background color on hover */
+}
+
+
+
+.navbar {
+ 
+  color: #fff;
+  padding: 0 0; /* Adjust the top and bottom padding */
+  
+}
+
+.navbar-brand {
+  color: #00ff00;
+  font-size: 50px;
+  font-size: 1.5rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.nav-btn {
+  padding: 5px 15px;
+  margin-right: 10px; /* Add right margin to create space between buttons */
+  font-size: 14px;
+  background-color: #f39c12;
+  color: #fff;
+  border:#00ff00;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.nav-btn:hover {
+  background-color: #e67e22;
+}
+.navbar-logo {
+  
+  display: flex;
+  align-items: center; /* Align logo vertically with the navbar */
+}
+
+
+
